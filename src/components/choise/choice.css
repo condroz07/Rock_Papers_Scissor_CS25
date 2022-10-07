@@ -1,0 +1,36 @@
+.triangle {
+    background-image: url('../../img/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+@media (max-width: 480px) {
+    .triangle {
+        height: 200px;
+        width: 200px;
+        margin-right: 21vw;
+        transform: translateY(75%);
+    }
+}
+
+@media (min-width: 480px) and (max-width: 995px) {
+    .triangle {
+        transform: translateY(40%) translateX(-4%);
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1100px) {
+    .triangle {
+        transform: translateY(40%) translateX(-4%);
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+    .triangle {
+        transform: translateY(40%) translateX(-4%);
+    }
+}

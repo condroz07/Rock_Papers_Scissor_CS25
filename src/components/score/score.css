@@ -1,0 +1,44 @@
+#score {
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 40vw;
+    transform: translateY(20%);
+    margin: auto;
+}
+
+.rpc {
+    color: white;
+    width: 7vw;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 80%;
+    height: 9vh;
+    margin-top: 0.2vh;
+}
+
+.score-title {
+    color: rgb(85,96,175);
+    font-weight: bold;
+}
+
+.score {
+    color: rgb(84,81,103);
+    font-size: 20px;
+}
+
+.box-score {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+@media (max-width: 480px) {
+    #score {
+        width: auto;
+        margin: 0 1vh 0 1vh;
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1100px) {
+    
+}

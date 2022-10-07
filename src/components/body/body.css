@@ -1,0 +1,19 @@
+#body {
+    position: relative;
+}
+
+body {
+    background-color: rgb(25,35,68) !important;
+    /* background: radial-gradient(circle top 50%, rgb(30,54,87) 80%, rgb(25,35,68) 20% ); */
+    /* background: -webkit-radial-gradient(circle top 50%, rgb(30,54,87) 80%, rgb(25,35,68) 20%); */
+}
+
+/* .triangle {
+    background-image: url('../../img/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    transform: translateY(50%);
+} */
